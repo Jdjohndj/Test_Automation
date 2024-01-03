@@ -8,7 +8,7 @@ from selenium.webdriver import Keys
 class TestLogin:
     
     def setup_class(self):
-        with open("Configurations/testdata.json") as file:
+        with open("../Configurations/testdata.json") as file:
             self.configdata = json.load(file)
             # config = json.load(file)
 

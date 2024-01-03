@@ -1,1 +1,1 @@
-python -m pytest ./test_LoginPage.py
+python -m pytest ../test_LoginPage.py
